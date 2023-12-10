@@ -1,0 +1,26 @@
+server:
+  port: 9035
+  servlet:
+    context-path: /forum-analysis
+    
+
+
+spring.jpa.hibernate.ddl-auto: update
+#spring.datasource.url:  jdbc:mysql://localhost:3309/rapid_dev_external_integration?useUnicode=yes&characterEncoding=UTF-8
+#spring.datasource.username: rapid_sit
+#spring.datasource.password: Hotfoot@123
+
+spring.datasource.url: jdbc:mysql://localhost:3306/bankstatement1
+spring.datasource.username: root
+spring.datasource.password: root
+
+spring.jpa.open-in-view: false
+
+spring.jpa.properties.hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+hibernate.dialect.storage_engine: innodb
+spring.jpa.properties.hibernate.globally_quoted_identifiers: true 
+
+spring.jpa.show-sql: true
+spring.jpa.generate-ddl: true 
+spring.main.allow-bean-definition-overriding: true
+
